@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* start header style , img and logo and drop dropdwn menu */
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("/images/bgpizza.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.banner img {
+    margin: 10vh;
+}
+
+
+/* nav menu style */
+
+nav {
+    display: inline-flex;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+    height: 15vh;
+    align-items: center;
+}
+
+.nav_menu {
+    list-style: none;
+    color: white;
+    flex: 1;
+    font-size: 17px;
+    font-family: Redressed, cursive;
+}
+
+.nav_menu li {
+    display: inline-block;
+    text-align: center;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 20px;
+    font-weight: bold;
+    margin-left: 40px;
+    transition: all 0.2s ease-in 0.1s;
+}
+
+.nav_menu li:hover,
+.nav_menu li:active {
+    color: red;
+    transition: all 0.3s ease-out 0.2s;
+    cursor: pointer;
+}
+
+.btn {
+    border: none;
+    width: 15vh;
+    height: 40px;
+    margin-left: 50px;
+    background: white;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+    transition: all 0.3s ease-in 0.1s;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn:hover,
+.btn:active {
+    transition: all 0.3s ease-out 0.1s;
+    border-radius: 10px;
+    background: red;
+    color: white;
+}
+
+.banner {
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(rgba(48, 48, 48, 0.3), rgba(39, 39, 39, 0.9)), url("/images/contact-us-background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.cntct-head {
+    color: white;
+    font-size: 8vh;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-top: 20vh;
+    margin-left: 10vh;
+    width: fit-content;
+    padding-bottom: 20px;
+    border-bottom: 3px solid red;
+}
+
+.phead {
+    margin-top: 5vh;
+    margin-left: 10vh;
+    width: 50%;
+    font-size: 20px;
+    color: gray;
+}
+
+
+/* start of contact us form  section */
+
+.cntct-form {
+    width: 100%;
+    height: 150vh;
+}
+
+h4 {
+    margin-top: 20vh;
+    margin-left: 10vh;
+    width: fit-content;
+    background: red;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 5px 10px;
+}
+
+.cntct-head1 {
+    font-size: 8vh;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10vh;
+    width: fit-content;
+    padding-bottom: 20px;
+    border-bottom: 3px solid red;
+}
+
+form {
+    margin-top: 5vh;
+    width: 70%;
+    height: 100vh;
+}
+
+form input,
+select,
+label,
+textarea {
+    display: block;
+    margin: 0px 10vh;
+    width: 70%;
+    height: 6vh;
+}
+
+option {
+    font-size: 16px;
+}
+
+form label {
+    font-size: 16px;
+    margin-top: 20px;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+textarea {
+    height: 25vh;
+}
+
+input[type=submit] {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100px;
+    height: 45px;
+    border: none;
+    background: red;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.4s;
+}
+
+input[type=submit]:hover {
+    background: rgb(196, 0, 0);
+    transition: all 0.4s;
+}
+
+
+/* end of cotact us section form style */
+
+
+/* start of Download our menu section style */
+
+.dwnld-menu {
+    width: 100%;
+    height: 25vh;
+    background: red;
+}
+
+.dwnld-menu h1 {
+    padding-top: 11vh;
+    padding-left: 10vh;
+    display: inline-block;
+    color: white;
+    font-size: 5vh;
+    font-weight: bold;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.dwnld-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    border: 2px solid white;
+    padding: 15px 30px;
+    margin-left: 40%;
+    margin-bottom: 12vh;
+    display: inline-block;
+    transition: all 0.3s ease-in 0.1s;
+}
+
+.dwnld-menu a:hover {
+    transition: all 0.3s ease-out 0.1s;
+    color: black;
+    background: white;
+}
+
+
+/* end of Download our menu section style */
+
+
+/* start of footer stye */
+
+footer {
+    width: 100%;
+    color: #333;
+    height: 15vh;
+    padding-top: 5vh;
+}
+
+footer p {
+    padding-left: 5vh;
+}
+
+footer ul {
+    margin-left: 70%;
+}
+
+footer ul li {
+    display: inline-block;
+    text-align: center;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 5vh;
+    font-weight: bold;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer ul li a:hover {
+    border-bottom: 2px solid red;
+}
+
+
+/* end of footer style */

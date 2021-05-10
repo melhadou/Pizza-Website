@@ -1,0 +1,506 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* start header style , img and logo and drop dropdwn menu */
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("../images/bgpizza.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.banner img {
+    margin: 10vh;
+}
+
+
+/* nav menu style */
+
+nav {
+    display: inline-flex;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+    height: 15vh;
+    align-items: center;
+}
+
+.nav_menu {
+    list-style: none;
+    color: white;
+    flex: 1;
+    font-size: 17px;
+    font-family: Redressed, cursive;
+}
+
+.nav_menu li {
+    display: inline-block;
+    text-align: center;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 20px;
+    font-weight: bold;
+    margin-left: 40px;
+    transition: all 0.2s ease-in 0.1s;
+}
+
+.nav_menu li:hover,
+.nav_menu li:active {
+    color: red;
+    transition: all 0.3s ease-out 0.2s;
+    cursor: pointer;
+}
+
+.btn {
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    width: 15vh;
+    padding: 6px;
+    height: 40px;
+    margin-left: 50px;
+    display: inline-block;
+    background: white;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+    transition: all 0.3s ease-in 0.1s;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.phead {
+    text-align: center;
+    font-size: 6vh;
+    margin-top: 20vh;
+    color: red;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+    border-radius: 10px;
+    background: red;
+    color: white;
+}
+
+.phead {
+    text-align: center;
+    font-size: 4vh;
+    margin-top: 20vh;
+    color: white;
+    cursor: pointer;
+}
+
+.center_head {
+    margin-top: 5vh;
+    text-align: center;
+    font-size: 15vh;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: rgba(255, 255, 255, 0.5);
+    transition: all 0.5s ease-out 0.1s;
+    cursor: pointer;
+}
+
+.center_head:hover {
+    color: red;
+    transition: all 0.3s ease-out 0.1s;
+}
+
+.btn1 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5vh;
+    border: none;
+    width: 20vh;
+    height: 40px;
+    margin-left: 45%;
+    color: red;
+    transition: all 0.3s ease-out 0.1s;
+}
+
+.btn1:hover,
+.btn1:active {
+    transition: all 0.3s ease-out 0.1s;
+    background: none;
+    border: 2px solid red;
+}
+
+
+/* end of header style */
+
+
+/* start of pizza  section styl ---> class=pizza_sec */
+
+.pizza__sec {
+    border-top: 4px red solid;
+    height: 320vh;
+    background-image: url("../images/patern.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pizza__sec h1 {
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 5vh;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: red;
+    transition: all 0.5s ease-out 0.1s;
+    cursor: pointer;
+}
+
+.our_menu {
+    margin-left: 30%;
+    padding: 5px;
+    padding-top: 25px;
+    color: gray;
+    font-size: 15px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.pizza_sec {
+    width: 90%;
+    height: 120vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pizza_sec div {
+    width: 30%;
+    padding-left: 4vh;
+    flex-direction: column;
+    display: inline-block;
+    margin: 70px 20px;
+}
+
+.pizza_sec div img {
+    padding: 10px;
+}
+
+.pizza_sec div h3 {
+    padding: 5px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.2s ease 0.1s;
+}
+
+.pizza_sec div h3:hover {
+    cursor: pointer;
+    color: red;
+    text-shadow: -1px 1px 2px gray;
+    transition: all 0.2s ease-out 0.1s;
+}
+
+.pizza_sec div p {
+    text-align: center;
+    width: 350px;
+    padding: 5px;
+    padding-top: 25px;
+    color: gray;
+    font-size: 15px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+
+/*SPEC OFFER pizza section style */
+
+.spec_offer {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/spe-offer.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.spec_offer_box {
+    width: 60%;
+    height: 100%;
+    padding-left: 100px;
+    padding-top: 150px;
+    color: white;
+}
+
+.spec_offer_box span {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    background: #75d007;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.spec_offer_box h3 {
+    font-size: 8vh;
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.spec_offer_box p {
+    width: 75%;
+    color: rgb(155, 155, 155);
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.spec_offer_box h1 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 8vh;
+    margin: 20px 0px;
+}
+
+.spec_offer_box button {
+    color: white;
+    font-size: 16px;
+    border: 2px solid white;
+    background: none;
+    padding: 15px 30px;
+    transition: all 0.5s ease 0.1s;
+}
+
+.spec_offer_box button:hover {
+    color: black;
+    background: white;
+    transition: all 0.3s ease-out 0.1s;
+}
+
+
+/* end of spec offer style */
+
+
+/* start of garnty section style */
+
+.garnty {
+    width: 100%;
+    height: 60vh;
+    background: #75d007;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.garnty div {
+    margin-top: 60px;
+    flex: 1;
+    width: 30%;
+    padding-left: 4vh;
+    flex-direction: column;
+    margin: 90px 50px;
+}
+
+.garnty div img {
+    width: 100px;
+    height: 100px;
+    margin-left: 35%;
+    transition: all 0.3s ease 0.2s;
+}
+
+.garnty div img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.garnty h2 {
+    color: white;
+    padding: 5px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.2s ease 0.1s;
+}
+
+.garnty h2:hover {
+    cursor: pointer;
+    color: red;
+    transition: all 0.3s ease-out 0.2s;
+}
+
+.garnty p {
+    text-align: center;
+    padding: 5px;
+    color: rgb(56, 56, 56);
+    font-size: 16px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+
+/* end of garnty section style */
+
+
+/* bestseller  pizza style section */
+
+.bst_selling {
+    width: 100;
+    height: 120vh;
+}
+
+.bst_selling h1 {
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 5vh;
+    color: red;
+    cursor: pointer;
+}
+
+.bst_selling p {
+    margin-left: 30%;
+    padding: 5px;
+    color: gray;
+    font-size: 15px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.bst_sln_2nd_sec {
+    width: 50%;
+    height: 70vh;
+    padding-left: 20vh;
+    display: inline-block;
+}
+
+.bst_sln_img_sec {
+    margin-top: 4vh;
+    width: 490px;
+    height: 500px;
+    right: 0;
+}
+
+.bst_sln_3rd_sec {
+    width: 50%;
+    height: 70vh;
+    float: right;
+}
+
+.bst_sln_3rd_sec h2 {
+    padding-top: 25vh;
+    padding-bottom: 3vh;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(37, 37, 37);
+    font-size: 45px;
+    cursor: pointer;
+}
+
+.bst_sln_3rd_sec p {
+    padding: 15px 0px;
+    width: 490px;
+    margin-left: 0;
+    color: gray;
+    font-size: 16px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.bst_sln_3rd_sec button {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin-top: 5vh;
+    width: 25vh;
+    height: 50px;
+    background: white;
+    color: red;
+    border: 2px solid red;
+    transition: all 0.3s ease-out 0.1s;
+}
+
+.bst_sln_3rd_sec button:hover,
+.bst_sln_3rd_sec button:active {
+    transition: all 0.3s ease-out 0.1s;
+    background: red;
+    color: white;
+    border: 2px solid red;
+}
+
+
+/* end of bestseller pizza section */
+
+
+/* start of Download our menu section style */
+
+.dwnld-menu {
+    width: 100%;
+    height: 25vh;
+    background: red;
+}
+
+.dwnld-menu h1 {
+    padding-top: 11vh;
+    padding-left: 10vh;
+    display: inline-block;
+    color: white;
+    font-size: 5vh;
+    font-weight: bold;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.dwnld-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    border: 2px solid white;
+    padding: 15px 30px;
+    margin-left: 40%;
+    margin-bottom: 12vh;
+    display: inline-block;
+    transition: all 0.3s ease-in 0.1s;
+}
+
+.dwnld-menu a:hover {
+    transition: all 0.3s ease-out 0.1s;
+    color: black;
+    background: white;
+}
+
+
+/* end of Download our menu section style */
+
+
+/* start of footer stye */
+
+footer {
+    width: 100%;
+    color: #333;
+    height: 15vh;
+    padding-top: 5vh;
+}
+
+footer p {
+    padding-left: 5vh;
+}
+
+footer ul {
+    margin-left: 70%;
+}
+
+footer ul li {
+    display: inline-block;
+    text-align: center;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 5vh;
+    font-weight: bold;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer ul li a:hover {
+    border-bottom: 2px solid red;
+}
+
+
+/* end of footer style */
